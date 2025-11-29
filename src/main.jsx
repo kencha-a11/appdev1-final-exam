@@ -6,6 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import { store } from "./app/store";
 import App from "./App.jsx";
 
+import './assets/CSS/corner.css'
+import './assets/CSS/main.css'
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
